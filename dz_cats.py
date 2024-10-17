@@ -7,7 +7,7 @@ def get_cats_info(path):
             line = line.strip()
             cats = line.split(',')
 
-            if len(cats) > 1:
+            if len(cats) == 3:
                 cats_dict = {
                     'id': cats[0],
                     'name': cats[1],
