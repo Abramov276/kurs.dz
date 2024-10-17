@@ -4,7 +4,7 @@ def total_salary(path):
         for line in sal:
             path = line.split(',')
 
-            if len(path) > 1:
+            if len(path) == 2:
                 name, salary = path
 
                 try:
